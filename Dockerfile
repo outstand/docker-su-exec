@@ -1,4 +1,4 @@
-FROM buildpack-deps:buster
+FROM buildpack-deps:latest
 
 ENV SUEXEC_VERSION 0.2
 RUN mkdir -p /tmp/build && cd /tmp/build && \
